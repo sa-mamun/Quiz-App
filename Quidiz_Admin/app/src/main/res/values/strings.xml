@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Quidizz Admin</string>
+
+    <string name="forgot">Forgot Your Password? <u>Tap Here</u></string>
+    <string name="dnt_have">Don\'t Have an account?</string>
+    <string name="alrdy_have">Already have an account?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

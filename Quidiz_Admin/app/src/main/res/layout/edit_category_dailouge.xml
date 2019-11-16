@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="18dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        >
+
+        <ImageButton
+            android:id="@+id/ib_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/close_image_icon"
+            android:background="@android:color/transparent" />
+
+
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/edit_imageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@color/colorView"
+        />
+    <Button
+        android:id="@+id/edit_addImageBtn"
+        android:layout_width="110dp"
+        android:layout_height="35dp"
+        android:text="Edit Image"
+        android:background="@drawable/button_bg"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black"
+        android:textAllCaps="false"
+        android:drawableStart="@drawable/edit_icon"
+        android:padding="5dp"
+        />
+
+    <EditText
+        android:id="@+id/edit_catNameET"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Category Name"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_bg"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        />
+
+    <EditText
+        android:id="@+id/edit_seNoET"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="No of Sets"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_bg"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/edit_catUpdateBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:background="@drawable/button_bg"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/black"
+        />
+
+</LinearLayout>

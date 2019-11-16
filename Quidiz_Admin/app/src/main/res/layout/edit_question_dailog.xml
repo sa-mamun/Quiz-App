@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        >
+
+        <ImageButton
+            android:id="@+id/ib_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/close_image_icon"
+            android:background="@android:color/transparent" />
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edit_questionET"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Question"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_bg"
+        android:padding="15dp"
+        android:textColor="@android:color/black"
+        />
+
+    <EditText
+        android:id="@+id/edit_optionA_ET"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Option A"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_bg"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        />
+    <EditText
+        android:id="@+id/edit_optionB_ET"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Option B"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_bg"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        />
+    <EditText
+        android:id="@+id/edit_optionC_ET"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Option C"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_bg"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        />
+    <EditText
+        android:id="@+id/edit_optionD_ET"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Option D"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_bg"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        />
+
+    <EditText
+        android:id="@+id/edit_correctAns_ET"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Correct Ans"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_bg"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        />
+
+    <EditText
+        android:id="@+id/edit_setNo_ET"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Set No"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_bg"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/edit_QuestionBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:background="@drawable/button_bg"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/black"
+        />
+
+</LinearLayout>

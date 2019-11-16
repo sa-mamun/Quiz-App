@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="5dp"
+    android:foreground="?selectableItemBackground"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="2dp"
+    >
+
+    <LinearLayout
+        android:id="@+id/LL2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q:"
+                android:textSize="19dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:id="@+id/tv_qstn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Question Here"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="a."
+                android:textSize="17dp"
+                android:layout_marginLeft="24dp"
+                android:textStyle="normal"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:id="@+id/tv_opA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Option A"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="b."
+                android:textSize="17dp"
+                android:layout_marginLeft="24dp"
+                android:textStyle="normal"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:id="@+id/tv_opB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Option B"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="c."
+                android:textSize="17dp"
+                android:layout_marginLeft="24dp"
+                android:textStyle="normal"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:id="@+id/tv_opC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Option C"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="d."
+                android:textSize="17dp"
+                android:layout_marginLeft="24dp"
+                android:textStyle="normal"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:id="@+id/tv_opD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Option D"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ca."
+                android:textSize="17dp"
+                android:layout_marginLeft="24dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:id="@+id/tv_ca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Correct Ans"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="set no:"
+                android:textSize="17dp"
+                android:layout_marginLeft="24dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:id="@+id/tv_set"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Set No"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:padding="2dp"
+            >
+
+            <ImageButton
+                android:id="@+id/ib_editBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/edit_icon" />
+
+            <ImageButton
+                android:id="@+id/ib_deleteBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:src="@drawable/delete_image_icon" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
